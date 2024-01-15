@@ -1,0 +1,147 @@
+
+
+.Homepage {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0px;
+}
+
+/* Example media query for responsive adjustments */
+@media (max-width: 820px) {
+    .Homepage {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 0px;
+    }
+}
+
+.AccountsOverview {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 50px 0px 0px 0px;
+}
+
+
+.Accounts {
+    background-color: #F1F1F1;
+    width: 100%;
+    flex: 1;
+    max-width: 600px;
+    /* height: 300%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    padding: 20px;
+    border: 0px solid #e0e0e0; /* Set a light grey border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Set a subtle shadow */
+    border-radius: 10px; /* Rounded corners */
+    gap: 20px;
+}
+
+.Transactions {
+    background-color: #F1F1F1;
+    width: 100%;
+    flex: 1;
+    max-width: 1270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 15px 50px 15px;
+    padding: 20px;
+    border: 0px solid #e0e0e0; /* Set a light grey border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Set a subtle shadow */
+    border-radius: 10px; /* Rounded corners */
+    gap: 20px;
+}
+
+@media (max-width: 1270px) {
+    .Transactions {
+        background-color: #F1F1F1;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 15px 50px 15px;
+        padding: 20px;
+        border: 0px solid #e0e0e0; /* Set a light grey border */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Set a subtle shadow */
+        border-radius: 10px; /* Rounded corners */
+        gap: 20px;
+    }
+}
+
+
+
+.cardtitle {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Headland One', serif;
+    color: #000000; /* This sets the text color; replace with your color */
+    font-size: 2.5rem; /* This sets the text size; adjust as needed */
+    font-weight: normal; /* This sets the weight of the font; adjust if needed */
+    text-align: center; /* This centers the text in its container */
+}
+
+.loading {
+    width: 100%;
+    height: 200px;
+    font-family: 'Headland One', serif;
+    color: #000000; /* This sets the text color; replace with your color */
+    font-size: 1.3rem; /* This sets the text size; adjust as needed */
+    font-weight: normal; /* This sets the weight of the font; adjust if needed */
+    text-align: center; /* This centers the text in its container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.editButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Headland One', serif;
+    color: #000000; /* This sets the text color; replace with your color */
+    font-size: 1.5rem; /* This sets the text size; adjust as needed */
+    font-weight: normal; /* This sets the weight of the font; adjust if needed */
+    text-align: center; /* This centers the text in its container */
+    gap: 8px;
+    background-color: #D9D9D9;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.editButton:hover {
+    background-color: #afafaf;
+    cursor: pointer;
+}
+
+.editButton img {
+    width: 40px;
+    height: auto;
+}
+
